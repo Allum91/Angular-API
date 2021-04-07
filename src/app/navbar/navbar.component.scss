@@ -1,0 +1,26 @@
+.nav {
+  text-align: center;
+  height: 5vh;
+  background: rgb(53, 53, 53);
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+    .nav__title {
+      color: #62D962;
+      padding: 10px;
+    }
+    .nav__links {
+      display: inline-block;
+      justify-content: space-evenly;
+      background: #62D962;
+      color: black;
+      padding: 10px;
+      height: 50%
+    }
+    .one {
+      border-bottom-left-radius: 10px;
+    }
+  }
+}
