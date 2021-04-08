@@ -1,0 +1,12 @@
+<main class='dashboard'>
+  <img src='../../assets/images/9-96506_music-transparent-wave-electronic-music-png.png' alt='music' class='dashboard__image'/>
+  <div class='dashboard__container'>
+    <input class='dashboard__input' type='text' [(ngModel)]='searchText'/><br/><br/>
+    <button class='dashboard__button' (click)='handleSearch()'>Search</button>
+  </div>
+  <div class='dashboard__results'>
+    <select>
+      <option *ngFor='let genre of genres'>{{genre}}</option>
+    </select>
+  </div>
+</main>
